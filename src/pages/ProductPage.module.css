@@ -1,0 +1,122 @@
+.page {
+  padding: 32px;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 24px 0;
+  letter-spacing: 0.5px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.page {
+  padding: 32px;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222;
+  margin: 24px 0 24px 0;
+  letter-spacing: 0.5px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  margin-bottom: 32px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  flex-wrap: wrap;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #555;
+}
+
+.input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #222;
+  background: #fafafa;
+  outline: none;
+  width: 200px;
+}
+
+.input:focus {
+  border-color: #2563eb;
+  background: #fff;
+}
+
+.imageInput {
+  padding: 6px 12px;
+  width: 200px;
+}
+
+.submitBtn {
+  padding: 8px 20px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  height: 38px;
+}
+
+.submitBtn:hover {
+  background: #1d4ed8;
+}
+
+.submitBtn:disabled {
+  background: #93b4f5;
+  cursor: not-allowed;
+}
+.imagesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.imageField {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.imageName {
+  font-size: 12px;
+  color: #666;
+}
