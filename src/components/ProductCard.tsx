@@ -26,7 +26,15 @@ export default function ProductCard({ product, onEdit, onDelete }: Props) {
       </div>
 
       <div className={styles.info}>
-        <h2 className={styles.name}>{product.name}</h2>
+        <div className={styles.titleRow}>
+          <h2 className={styles.name}>{product.name}</h2>
+
+          <span className={styles.brand}>{product.brand || "Sin marca"}</span>
+        </div>
+
+        <p className={styles.description}>
+          {product.description || "Sin descripción"}
+        </p>
 
         <p className={styles.price}>${product.price}</p>
       </div>
