@@ -264,7 +264,7 @@ export default function ProductsPage() {
           </div>
 
           <div className={styles.imagesContainer}>
-            {newImages.map((image, index) => (
+            {newImages.map((_, index) => (
               <div key={index} className={styles.imageField}>
                 <input
                   className={`${styles.input} ${styles.imageInput}`}
