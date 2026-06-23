@@ -137,7 +137,7 @@ export default function ProductsPage() {
       .catch((err) => alert(err.message));
   }
 
-  function handleDelete(id: number) {
+  function handleDelete(id: string) {
     if (!window.confirm("¿Eliminar producto?")) return;
 
     fetch(`https://parsoplac-back.onrender.com/products/${id}`, {

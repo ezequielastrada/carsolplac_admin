@@ -1,5 +1,5 @@
 export type Product = {
-  id: number;
+  id: string;
   name: string;
   price: number;
   description: string;
@@ -8,7 +8,7 @@ export type Product = {
   images: string[];
 };
 export type Category = {
-  id: number;
+  id: string;
   name: string;
 };
 export interface Banner {

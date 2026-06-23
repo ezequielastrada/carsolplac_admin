@@ -4,7 +4,7 @@ import styles from "./ProductCard.module.css";
 type Props = {
   product: Product;
   onEdit: (product: Product) => void;
-  onDelete: (id: number) => void;
+  onDelete: (id: string) => void;
 };
 
 export default function ProductCard({ product, onEdit, onDelete }: Props) {
